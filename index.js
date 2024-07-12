@@ -142,7 +142,7 @@ const fps = new class {
  */
 
 (async () => {
-    const wasnModule = await import('./pkg/game_2048.js');
+    const wasnModule = await import('./pkg/game_2048');
     wasnModule.start();
 })()
 
